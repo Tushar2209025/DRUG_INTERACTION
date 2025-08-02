@@ -60,7 +60,12 @@ Current Progress: 30% (Initial Framework)**
 - Add scrollbars and filter options
 - CSV file parsing and error handling
 
+  ** implementation of interaction logic is done
+  **graph based network visualization is done
+  and above future implementation is also done 
+
 **How to Run
 1. Clone the repository
 2. Open `main.py` in your IDE
 3. Run the script using Python 3
+4. dataset also given in main as a csv file
