@@ -1,0 +1,171 @@
+DrugName,DrugClass,TargetName,TargetType,InteractionLevel
+Aspirin,Anti-inflammatory,COX-1,Enzyme,High
+Aspirin,Anti-inflammatory,COX-2,Enzyme,Medium
+Imatinib,Kinase inhibitor,BCR-ABL,Protein,High
+Imatinib,Kinase inhibitor,PDGFR,Protein,Medium
+Metformin,Biguanide,AMPK,Protein,High
+Paracetamol,Analgesic,COX-2,Enzyme,High
+Gefitinib,EGFR inhibitor,EGFR,Protein,High
+Trastuzumab,Monoclonal antibody,HER2,Protein,High
+Tamoxifen,Estrogen receptor modulator,ER-alpha,Protein,Medium
+Clopidogrel,Antiplatelet,P2Y12,Receptor,High
+Atorvastatin,Statin,HMGCR,Enzyme,High
+Simvastatin,Statin,HMGCR,Enzyme,Medium
+Losartan,Angiotensin receptor blocker,AGTR1,Receptor,High
+Captopril,ACE inhibitor,ACE,Enzyme,High
+Ibuprofen,NSAID,COX-1,Enzyme,Medium
+Ibuprofen,NSAID,COX-2,Enzyme,Medium
+Rituximab,Monoclonal antibody,CD20,Protein,High
+Nivolumab,Checkpoint inhibitor,PD-1,Protein,High
+Pembrolizumab,Checkpoint inhibitor,PD-1,Protein,High
+Fluoxetine,SSRI,SERT,Transporter,High
+Varenicline,Beta blocker,5-HTT,Protein,Low
+Insulin,Kinase inhibitor,PDGFR,Protein,High
+Doxycycline,Antibiotic,5-HTT,Protein,Medium
+Topiramate,Antidepressant,PDGFR,Protein,Medium
+Oseltamivir,Statin,P2Y12,Receptor,High
+Escitalopram,Antibiotic,CYP3A4,Enzyme,Low
+Albuterol,Antipsychotic,AMPK,Protein,Medium
+Allopurinol,Kinase inhibitor,GLP-1R,Receptor,High
+Levothyroxine,Anticonvulsant,GLP-1R,Receptor,Medium
+Donepezil,Calcium channel blocker,VEGFR,Protein,High
+Losartan,Statin,COX-2,Enzyme,High
+Enalapril,Antibiotic,5-HTT,Protein,Medium
+Hydrochlorothiazide,Bronchodilator,COX-1,Enzyme,Low
+Hydrochlorothiazide,Antihistamine,COX-1,Enzyme,High
+Donepezil,Anticoagulant,AMPK,Protein,High
+Quetiapine,SSRI,5-HTT,Protein,Low
+Bupropion,Statin,Beta-2 receptor,Receptor,Medium
+Methotrexate,Diuretic,mGluR5,Receptor,Medium
+Sertraline,Thyroid hormone,COX-1,Enzyme,Low
+Amlodipine,Bronchodilator,PDGFR,Protein,Low
+Allopurinol,Anticonvulsant,Histamine H1 receptor,Receptor,High
+Cetirizine,Proton pump inhibitor,Beta-2 receptor,Receptor,Low
+Rivaroxaban,Anticoagulant,mGluR5,Receptor,Medium
+Bupropion,Beta blocker,Beta-1 receptor,Receptor,Medium
+Simvastatin,Kinase inhibitor,Beta-1 receptor,Receptor,Low
+Donepezil,Antihistamine,mGluR5,Receptor,Medium
+Diazepam,Anticonvulsant,COX-2,Enzyme,High
+Tamsulosin,Antibiotic,CYP3A4,Enzyme,Low
+Quetiapine,Biguanide,COX-2,Enzyme,Low
+Simvastatin,Biguanide,COX-2,Enzyme,High
+Furosemide,Anticonvulsant,PDGFR,Protein,Low
+Losartan,Bronchodilator,D2 receptor,Receptor,Medium
+Tramadol,Statin,P2Y12,Receptor,High
+Hydrochlorothiazide,Proton pump inhibitor,HMGCR,Enzyme,Low
+Glipizide,Proton pump inhibitor,P2Y12,Receptor,High
+Digoxin,Antibiotic,P2Y12,Receptor,Low
+Topiramate,Beta blocker,AMPK,Protein,Medium
+Furosemide,Calcium channel blocker,HMGCR,Enzyme,Medium
+Fluoxetine,Antibiotic,Histamine H1 receptor,Receptor,Low
+Lisinopril,Antihistamine,COX-2,Enzyme,Low
+Albuterol,Antipsychotic,GLP-1R,Receptor,High
+Terbinafine,Antibiotic,Beta-1 receptor,Receptor,High
+Losartan,Antibiotic,CYP3A4,Enzyme,Medium
+Azithromycin,Antipsychotic,D2 receptor,Receptor,High
+Furosemide,ACE inhibitor,HMGCR,Enzyme,Medium
+Gabapentin,Thyroid hormone,COX-1,Enzyme,High
+Ranitidine,SSRI,P2Y12,Receptor,Low
+Digoxin,Anticoagulant,mGluR5,Receptor,Low
+Liraglutide,Proton pump inhibitor,mGluR5,Receptor,High
+Ranitidine,Beta blocker,Histamine H1 receptor,Receptor,Low
+Tamsulosin,Statin,Beta-2 receptor,Receptor,Medium
+Escitalopram,Beta blocker,P2Y12,Receptor,Low
+Amlodipine,Proton pump inhibitor,Na+/K+ pump,Protein,High
+Oseltamivir,Calcium channel blocker,Histamine H1 receptor,Receptor,High
+Amlodipine,Calcium channel blocker,AMPK,Protein,High
+Hydrochlorothiazide,Proton pump inhibitor,CYP3A4,Enzyme,Low
+Citalopram,Beta blocker,VEGFR,Protein,High
+Rivaroxaban,Antidepressant,Histamine H1 receptor,Receptor,High
+Oseltamivir,Thyroid hormone,Beta-2 receptor,Receptor,Medium
+Terbinafine,Thyroid hormone,Na+/K+ pump,Protein,Medium
+Metoprolol,SSRI,BCR-ABL,Protein,Medium
+Metoprolol,Kinase inhibitor,ACE,Enzyme,High
+Lisinopril,ACE inhibitor,CYP3A4,Enzyme,Low
+Atorvastatin,Statin,Beta-2 receptor,Receptor,High
+Simvastatin,Thyroid hormone,BCR-ABL,Protein,Low
+Ranitidine,NSAID,D2 receptor,Receptor,Medium
+Atorvastatin,ACE inhibitor,CYP3A4,Enzyme,Low
+Liraglutide,Bronchodilator,Na+/K+ pump,Protein,Low
+Tamsulosin,Bronchodilator,GLP-1R,Receptor,High
+Fluoxetine,Thyroid hormone,Histamine H1 receptor,Receptor,Low
+Warfarin,Antibiotic,VEGFR,Protein,Low
+Clopidogrel,Antipsychotic,P2Y12,Receptor,High
+Diazepam,Antipsychotic,mGluR5,Receptor,High
+Omeprazole,SSRI,VEGFR,Protein,Low
+Methotrexate,Diuretic,BCR-ABL,Protein,High
+Terbinafine,Antihistamine,5-HTT,Protein,High
+Escitalopram,Statin,VEGFR,Protein,High
+Digoxin,Antibiotic,Beta-2 receptor,Receptor,High
+Hydrochlorothiazide,Thyroid hormone,mGluR5,Receptor,Medium
+Lisinopril,Kinase inhibitor,BCR-ABL,Protein,Low
+Furosemide,Thyroid hormone,Na+/K+ pump,Protein,Low
+Liraglutide,ACE inhibitor,COX-1,Enzyme,High
+Simvastatin,Anticonvulsant,D2 receptor,Receptor,Medium
+Glipizide,SSRI,BCR-ABL,Protein,High
+Hydrochlorothiazide,Antibiotic,D2 receptor,Receptor,High
+Amoxicillin,Calcium channel blocker,mGluR5,Receptor,Low
+Cetirizine,Diuretic,Na+/K+ pump,Protein,High
+Gabapentin,Antipsychotic,5-HTT,Protein,Medium
+Omeprazole,Calcium channel blocker,Histamine H1 receptor,Receptor,Medium
+Varenicline,Thyroid hormone,VEGFR,Protein,Low
+Propranolol,Antipsychotic,Na+/K+ pump,Protein,Low
+Omeprazole,Beta blocker,GLP-1R,Receptor,Low
+Lisinopril,Beta blocker,AMPK,Protein,Medium
+Montelukast,Kinase inhibitor,PDGFR,Protein,High
+Simvastatin,Diuretic,PDGFR,Protein,Medium
+Liraglutide,Kinase inhibitor,5-HTT,Protein,High
+Prednisone,Antidepressant,PDGFR,Protein,Medium
+Propranolol,Biguanide,D2 receptor,Receptor,Medium
+Citalopram,Bronchodilator,Histamine H1 receptor,Receptor,Low
+Prednisone,Proton pump inhibitor,AMPK,Protein,Medium
+Clopidogrel,Antidepressant,Beta-1 receptor,Receptor,High
+Amlodipine,Biguanide,D2 receptor,Receptor,Low
+Varenicline,Statin,HMGCR,Enzyme,High
+Warfarin,Diuretic,GLP-1R,Receptor,Medium
+Cetirizine,Biguanide,COX-1,Enzyme,High
+Digoxin,Anticoagulant,PDGFR,Protein,Medium
+Simvastatin,Thyroid hormone,GLP-1R,Receptor,Medium
+Oseltamivir,Antibiotic,COX-2,Enzyme,High
+Lisinopril,Antibiotic,PDGFR,Protein,Low
+Doxycycline,Thyroid hormone,COX-1,Enzyme,High
+Propranolol,NSAID,BCR-ABL,Protein,High
+Rivaroxaban,Kinase inhibitor,mGluR5,Receptor,Low
+Azithromycin,ACE inhibitor,Histamine H1 receptor,Receptor,High
+Tamsulosin,Antidepressant,COX-1,Enzyme,High
+Glipizide,Biguanide,ACE,Enzyme,High
+Atorvastatin,Diuretic,HMGCR,Enzyme,Medium
+Azithromycin,Beta blocker,BCR-ABL,Protein,Medium
+Tamsulosin,Proton pump inhibitor,Histamine H1 receptor,Receptor,Medium
+Allopurinol,Bronchodilator,P2Y12,Receptor,High
+Rosuvastatin,Anticoagulant,mGluR5,Receptor,High
+Terbinafine,Beta blocker,mGluR5,Receptor,Medium
+Quetiapine,Antibiotic,P2Y12,Receptor,Medium
+Ranitidine,Antibiotic,Na+/K+ pump,Protein,Low
+Liraglutide,Proton pump inhibitor,Histamine H1 receptor,Receptor,Medium
+Cetirizine,Antipsychotic,CYP3A4,Enzyme,High
+Levothyroxine,Anticoagulant,HMGCR,Enzyme,Medium
+Tramadol,Anticonvulsant,BCR-ABL,Protein,Low
+Tamsulosin,Bronchodilator,ACE,Enzyme,Medium
+Oseltamivir,Beta blocker,D2 receptor,Receptor,High
+Methotrexate,SSRI,5-HTT,Protein,High
+Sitagliptin,Kinase inhibitor,COX-1,Enzyme,High
+Clopidogrel,Antidepressant,Na+/K+ pump,Protein,High
+Ciprofloxacin,Kinase inhibitor,COX-1,Enzyme,Medium
+Allopurinol,Anticonvulsant,5-HTT,Protein,Low
+Terbinafine,Biguanide,COX-2,Enzyme,High
+Metoprolol,SSRI,COX-2,Enzyme,High
+Liraglutide,Calcium channel blocker,mGluR5,Receptor,Medium
+Tramadol,Antidepressant,mGluR5,Receptor,High
+Liraglutide,SSRI,GLP-1R,Receptor,Low
+Clopidogrel,Antipsychotic,AMPK,Protein,Low
+Sitagliptin,Anticoagulant,mGluR5,Receptor,Low
+Levothyroxine,SSRI,5-HTT,Protein,Low
+Amlodipine,Antibiotic,mGluR5,Receptor,High
+Tramadol,Anticoagulant,COX-2,Enzyme,Low
+Montelukast,Beta blocker,5-HTT,Protein,High
+Metoprolol,Anticoagulant,PDGFR,Protein,Medium
+Montelukast,Biguanide,5-HTT,Protein,Low
+Amoxicillin,Proton pump inhibitor,GLP-1R,Receptor,Low
+Losartan,Antibiotic,5-HTT,Protein,Low
+Lisinopril,Biguanide,Histamine H1 receptor,Receptor,Low
