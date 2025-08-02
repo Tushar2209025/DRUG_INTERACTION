@@ -15,7 +15,7 @@ def load_dataset():
         try:
             df = pd.read_csv(file_path)
             df.columns = df.columns.str.lower().str.strip().str.replace(" ", "_")
-            messagebox.showinfo("Success", "Dataset loaded successfully!")
+            messagebox.showinfo("Success", "Dataset loaded successfully! Now enter drug name or target name to predict or visualization of interaction")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load dataset:\n{e}")
 
@@ -34,11 +34,13 @@ def predict_interaction():
         drug = str(row.get("drugname", "")).strip().lower()
         target = str(row.get("targetname", "")).strip().lower()
         interaction = str(row.get("interactionlevel", "")).strip()
+        drug_class = str(row.get("drugclass", "")).strip()
+        target_type = str(row.get("targettype", "")).strip()
 
         if drug_input and drug_input in drug:
-            results.append(f"{row['drugname']} targets {row['targetname']} ({interaction})")
+            results.append(f"{row['drugname']} ({drug_class}) targets {row['targetname']} ({target_type}) - {interaction}")
         elif target_input and target_input in target:
-            results.append(f"{row['drugname']} targets {row['targetname']} ({interaction})")
+            results.append(f"{row['drugname']} ({drug_class}) targets {row['targetname']} ({target_type}) - {interaction}")
 
     result_box.delete("1.0", tk.END)
     if results:
@@ -46,6 +48,7 @@ def predict_interaction():
             result_box.insert(tk.END, res + "\n")
     else:
         result_box.insert(tk.END, "No interaction found.")
+
 
 # Visualization function
 def visualize_network():
@@ -102,7 +105,7 @@ app.geometry("700x600")
 app.config(bg="teal")
 
 # GUI layout using relx, rely
-tk.Button(app, text="Load Dataset", command=load_dataset, bg="#2196F3", fg="white", width=20)\
+tk.Button(app, text=" Load Dataset", command=load_dataset, bg="#2196F3", fg="white", width=20)\
     .place(relx=0.35, rely=0.05)
 
 tk.Label(app, text="Drug Name:", bg="#f0f0f0").place(relx=0.05, rely=0.15)
@@ -130,5 +133,3 @@ result_box = tk.Text(app, height=20, width=85)
 result_box.place(relx=0.05, rely=0.45)
 
 app.mainloop()
-
-
